@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <title>Practica</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hola</h1>
+        </header>
+        <nav>
+            <a href="https://www.youtube.com/" target="_blank">youtube</a>     
+            <a href="https://www.youtube.com/">youtube2</a>    
+            <a href="https://www.youtube.com/"> 
+                <img src="imagenes/a3.png" alt="imagenA" width="20" height="20">
+            </a>
+
+        </nav>
+        <div class="flex-container">
+            <section class="content">
+                <article>
+                    <table border="2px" cellpadding="10px">
+                        <caption>Tablas</caption>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Nombres</th>
+                                <th colspan="2">Apellidos</th>
+                                <th>Descripcion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Luis</td>
+                                <td>Ed</td>
+                                <td>Sag</td>
+                                <td>Pil</td>
+                                <td rowspan="3">Texto</td>
+                            </tr>
+                            <tr>
+                                <td>Luis</td>
+                                <td>Ed</td>
+                                <td>Sag</td>
+                                <td>Pil</td>
+                            </tr>
+                            <tr>
+                                <td>Luis</td>
+                                <td>Ed</td>
+                                <td>Sag</td>
+                                <td>Pil</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>s</td>
+                                <td>s</td>
+                                <td>s</td>
+                                <td>s</td>
+                                <td>s</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </article>
+                <article>
+                    <h2>Titulo2</h2>
+                    <form action="submit" method="post">
+                        <label>Nombre: </label><br>
+                        <input type="text" minlength="3" maxlength="20" id="txtNombre" placeholder="Nombre"><br>
+                        <label>Apellido: </label><br>
+                        <input type="text" minlength="3" maxlength="20" id="txtApellido" placeholder="Apellido"><br>
+                        <label>Contraseña: </label><br>
+                        <input type="password" minlength="3" maxlength="10" id="txtContraseña" placeholder="Contraseña"><br>
+                        <label>Lenguaje: </label><br>
+                        <select>
+                            <option>HTML</option>
+                            <option>css</option>
+                        </select>
+                        <button>Guardar</button>
+                    </form>
+                </article>
+            </section>
+            <aside>
+                <article>
+                    <h2>Titulo</h2>
+                    <img src="imagenes/a3.png" alt="Imagen" width="100" height="100">
+                    <p>Lorem, ipsum. ipsum dolor sit amet consectetur adipisicing elit. Qui eius dolorem ipsum at distinctio. Possimus quo reprehenderit repudiandae perferendis sed error quae quos sit hic ratione doloribus culpa, incidunt dolor.</p>
+                </article>
+                <article>
+                    <h2>Titulo</h2>
+                    <p>Lorem, ipsum dolor. ipsum dolor sit amet consectetur adipisicing elit. Qui eius dolorem ipsum at distinctio. Possimus quo reprehenderit repudiandae perferendis sed error quae quos sit hic ratione doloribus culpa, incidunt dolor.</p>
+                </article>
+            </aside>
+        </div>
+        <footer>
+            hecho por mi
+        </footer>
+    </div>
+</body>
+</html>
